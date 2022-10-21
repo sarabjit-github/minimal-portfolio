@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import profileImg from "../public/images/iron-man.jpg";
-import * as styles from "./layout.module.css";
+import * as styles from "./Layout.module.css";
 import * as utilStyles from "../styles/utils.module.css";
 
 const name = "Sarbjit Singh";
@@ -31,27 +31,27 @@ export default function Layout({ children }) {
       <footer className={styles.footer}>
         <h1 className={utilStyles.headingXl}>Contact</h1>
         <div>
-        <a
-          href="https://github.com/sarabjit-github"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github
-        </a>
-        <a
-          href="https://www.linkedin.com/in/sarabjit-singh-a823bb223/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Linkedin
-        </a>
-        <a
-          href="mailto:websachin111@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          websachin111@gmail.com
-        </a>
+          <a
+            href="https://github.com/sarabjit-github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sarabjit-singh-a823bb223/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
+          <a
+            href="mailto:websachin111@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            websachin111@gmail.com
+          </a>
         </div>
       </footer>
     </div>
