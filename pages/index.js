@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Layout from "../components/layout";
+import Head from "next/head";
+import Layout, {siteTitle} from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import homeStyles from "../styles/home.module.css";
 import coffeeProjectImg from "../public/images/coffee-project.png";
@@ -52,10 +53,10 @@ export default function Home() {
     },
   ];
   return (
-    <Layout home>
+    <Layout>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m Sarabjit Singh. I’m a Frontend Developer. You can contact
+          Hello, I’m Sarbjit Singh. I’m a Frontend Developer. You can contact
           me here:{" "}
           <a className={homeStyles.email} href="mailto:websachin111@gmail.com" target="_blank" without rel="noreferrer">websachin111@gmail.com</a>
         </p>

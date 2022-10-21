@@ -6,15 +6,15 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 
 const name = "Sarbjit Singh";
-export const siteTitle = "Sarabjit Singh Portfolio";
+export const siteTitle = "Sarbjit Singh Portfolio";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <title>{siteTitle}</title>
-        <meta name="description" content="Sarabjit Singh portfolio website." />
+        <meta name="description" content="Sarbjit Singh portfolio website." />
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header className={styles.header}>
