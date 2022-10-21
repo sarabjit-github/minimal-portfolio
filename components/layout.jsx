@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import profileImg from "../public/images/iron-man.jpg";
+import profileImg from "../public/images/ironman-ls.jpg";
 import * as styles from "./layout.module.css";
 import * as utilStyles from "../styles/utils.module.css";
 
@@ -20,8 +20,7 @@ export default function Layout({ children }) {
         <Image
           src={profileImg}
           priority
-          width={180}
-          height={240}
+          layout="intrinsic"
           alt="profile img"
           style={{ borderRadius: "24px" }}
         />
