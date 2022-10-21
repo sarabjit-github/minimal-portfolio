@@ -1,12 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-<<<<<<< HEAD:components/layout.jsx
-import profileImg from "../public/images/ironman-ls.jpg";
-import * as styles from "./layout.module.css";
-=======
 import profileImg from "../public/images/iron-man.jpg";
 import * as styles from "./Layout.module.css";
->>>>>>> 4cbceaf37bf667288b0ff11f98883704e89fe86a:components/Layout.jsx
 import * as utilStyles from "../styles/utils.module.css";
 
 const name = "Sarbjit Singh";
