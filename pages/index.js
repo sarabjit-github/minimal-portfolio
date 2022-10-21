@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import * as utilStyles from "../styles/utils.module.css";
 import * as homeStyles from "../styles/home.module.css";
 import coffeeProjectImg from "../public/images/coffee-project.png";
