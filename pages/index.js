@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Layout from "../components/layout";
-import * as utilStyles from "../styles/Utils.module.css";
-import * as homeStyles from "../styles/Home.module.css";
+import Layout from "../components/Layout";
+import * as utilStyles from "../styles/utils.module.css";
+import * as homeStyles from "../styles/home.module.css";
 import coffeeProjectImg from "../public/images/coffee-project.png";
 import hostingerProjectImg from "../public/images/hostinger-project.png";
 import weatherProjectImg from "../public/images/weather-project.png";

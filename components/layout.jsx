@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import profileImg from "../public/images/iron-man.jpg";
 import * as styles from "./Layout.module.css";
-import * as utilStyles from "../styles/Utils.module.css";
+import * as utilStyles from "../styles/utils.module.css";
 
 const name = "Sarbjit Singh";
 export const siteTitle = "Sarbjit Singh Portfolio";
