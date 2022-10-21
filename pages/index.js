@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Head from "next/head";
-import Layout, {siteTitle} from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
-import homeStyles from "../styles/home.module.css";
+import Layout from "../components/layout";
+import utilStyles from "../styles/Utils.module.css";
+import homeStyles from "../styles/Home.module.css";
 import coffeeProjectImg from "../public/images/coffee-project.png";
 import hostingerProjectImg from "../public/images/hostinger-project.png";
 import weatherProjectImg from "../public/images/weather-project.png";
