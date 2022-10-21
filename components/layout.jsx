@@ -34,7 +34,6 @@ export default function Layout({ children }) {
         <a
           href="https://github.com/sarabjit-github"
           target="_blank"
-          without
           rel="noreferrer"
         >
           Github
@@ -42,7 +41,6 @@ export default function Layout({ children }) {
         <a
           href="https://www.linkedin.com/in/sarabjit-singh-a823bb223/"
           target="_blank"
-          without
           rel="noreferrer"
         >
           Linkedin
@@ -50,7 +48,6 @@ export default function Layout({ children }) {
         <a
           href="mailto:websachin111@gmail.com"
           target="_blank"
-          without
           rel="noreferrer"
         >
           websachin111@gmail.com

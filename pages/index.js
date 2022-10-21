@@ -57,7 +57,7 @@ export default function Home() {
         <p>
           Hello, I’m Sarbjit Singh. I’m a Frontend Developer. You can contact
           me here:{" "}
-          <a className={homeStyles.email} href="mailto:websachin111@gmail.com" target="_blank" without rel="noreferrer">websachin111@gmail.com</a>
+          <a className={homeStyles.email} href="mailto:websachin111@gmail.com" target="_blank" rel="noreferrer">websachin111@gmail.com</a>
         </p>
         {/* <p>This is my skills:</p> */}
         <h1 className={utilStyles.headingXl}>Skills</h1>
@@ -110,13 +110,13 @@ export default function Home() {
                 </p>
                 <div className={homeStyles.links}>
                   {github ? (
-                    <a href={github} target="_blank" without rel="noreferrer">
+                    <a href={github} target="_blank" rel="noreferrer">
                       Github
                     </a>
                   ) : (
                     <a>Deleted</a>
                   )}
-                  <a href={live} target="_blank" without rel="noreferrer">
+                  <a href={live} target="_blank" rel="noreferrer">
                     Live
                   </a>
                 </div>
