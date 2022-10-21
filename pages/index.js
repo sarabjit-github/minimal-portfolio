@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layout from "../components/Layout";
 import * as utilStyles from "../styles/utils.module.css";
-import * as homeStyles from "../styles/home.module.css";
+import * as homeStyles from "../styles/Home.module.css";
 import coffeeProjectImg from "../public/images/coffee-project.png";
 import hostingerProjectImg from "../public/images/hostinger-project.png";
 import weatherProjectImg from "../public/images/weather-project.png";
@@ -55,9 +55,16 @@ export default function Home() {
     <Layout>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m Sarbjit Singh. I’m a Frontend Developer. You can contact
-          me here:{" "}
-          <a className={homeStyles.email} href="mailto:websachin111@gmail.com" target="_blank" rel="noreferrer">websachin111@gmail.com</a>
+          Hello, I’m Sarbjit Singh. I’m a Frontend Developer. You can contact me
+          here:{" "}
+          <a
+            className={homeStyles.email}
+            href="mailto:websachin111@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            websachin111@gmail.com
+          </a>
         </p>
         {/* <p>This is my skills:</p> */}
         <h1 className={utilStyles.headingXl}>Skills</h1>
