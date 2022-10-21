@@ -21,3 +21,6 @@
 .footer a{
     font-size: 1.15rem;
 }
+.footer a:hover{
+  color: #fbca03;
+}

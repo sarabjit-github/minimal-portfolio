@@ -100,7 +100,6 @@ export default function Home() {
                   width={240}
                   height={150}
                   alt="project img"
-                  style={{ borderRadius: "8px", border: "1px solid #000" }}
                 />
               </div>
               <div>

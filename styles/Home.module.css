@@ -12,6 +12,10 @@
     background: rgba(255, 255, 255, 0.05);
     margin-bottom: 1rem;
 }
+.project img{
+    border-radius: 8px;
+    border: 1px solid #000;
+}
 .project h3{
     margin: 0;
     color: #fbca03;
