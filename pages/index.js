@@ -97,8 +97,8 @@ export default function Home() {
               >
                 <Image
                   src={projectImg || emptyPimg}
-                  width={160}
-                  height={100}
+                  width={240}
+                  height={150}
                   alt="project img"
                   style={{ borderRadius: "8px", border: "1px solid #000" }}
                 />
