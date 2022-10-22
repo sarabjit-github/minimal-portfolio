@@ -65,6 +65,16 @@ export default function Home() {
           >
             websachin111@gmail.com
           </a>
+          <br />
+          <a
+            className={homeStyles.email}
+            href="/Sarabjit_Singh.pdf"
+            // download={true}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Resume
+          </a>
         </p>
         {/* <p>This is my skills:</p> */}
         <h1 className={utilStyles.headingXl}>Skills</h1>

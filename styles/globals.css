@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   background: #5c111b;
+  background-image: linear-gradient(60deg, #050505, #404040);
   color: white;
 }
 
